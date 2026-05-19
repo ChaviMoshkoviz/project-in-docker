@@ -7,7 +7,7 @@ services:
     ports:
       - "5001:5001"
     volumes:
-      - ${PWD}/instance:/app/instance
+      - "${PWD}/instance:/app/instance"
     environment:
       - FLASK_ENV=development
 
